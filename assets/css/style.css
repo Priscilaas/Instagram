@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+section{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+aside{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-between;
+
+}
+button{
+    background:#0066cc;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor:pointer;
+}
+button:hover{
+    color:#0066cc;
+    background: white;
+    
+}
+p{
+    font-size: 14px;
+}
+span{
+    color: gray;
+    font-size: 14px;
+}
+a{
+    color:#4284c5;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor:pointer;
+}
+.instagram-bloc{
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 25px 40px;
+}
+.profile{
+    margin-bottom:10px;
+    
+}
+
+#photo{
+    border-radius: 50%;
+}
+#get{
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+}
+#remove{
+    padding: 15px 0 10px 0;
+}
+
+@media screen and (max-width: 900px) {
+    
+    #celphone{
+        display: none;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px){
+    section{
+        width: 85vw;
+    }
+    
+}
